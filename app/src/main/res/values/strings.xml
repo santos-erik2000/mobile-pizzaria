@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Plat Pizza</string>
+    <string name="preencha_seus_dados">Preencha seus Dados</string>
+    <string name="cpf">CPF</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="celular">Celular</string>
+    <string name="avan_ar">Avançar</string>
 </resources>
