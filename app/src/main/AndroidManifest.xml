@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PlatPizza">
         <activity
+            android:name=".Cadastro2"
+            android:exported="true" />
+        <activity
             android:name=".Cadastro1"
             android:exported="true" />
         <activity

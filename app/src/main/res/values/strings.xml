@@ -5,4 +5,9 @@
     <string name="nome_completo">Nome Completo</string>
     <string name="celular">Celular</string>
     <string name="avan_ar">Avançar</string>
+    <string name="estamos_quase_finalizando">Estamos quase finalizando...</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="senha_2">Repetir senha</string>
+    <string name="finalizar">Finalizar Cadastro</string>
 </resources>
