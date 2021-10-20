@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray_cad">#9C98A6</color>
     <color name="green_button">#00C157</color>
+    <color name="yellow_view">#EEAD2D</color>
+    <color name="white_view">#CFCFCF</color>
 </resources>

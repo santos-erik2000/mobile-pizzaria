@@ -38,6 +38,17 @@
         android:importantForAutofill="no"
         android:inputType="textEmailAddress" />
 
+    <View
+        android:id="@+id/linha1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/yellow_view"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email" />
+
     <EditText
         android:id="@+id/senha"
         android:layout_width="match_parent"
@@ -49,9 +60,20 @@
         android:textColorHint="@color/gray_cad"
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email"
+        app:layout_constraintTop_toBottomOf="@id/linha1"
         android:importantForAutofill="no"
         android:inputType="textPassword" />
+
+    <View
+        android:id="@+id/linha2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/white_view"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/senha"/>
 
     <EditText
         android:id="@+id/senha2"
@@ -67,6 +89,17 @@
         app:layout_constraintTop_toBottomOf="@id/senha"
         android:importantForAutofill="no"
         android:inputType="textPassword" />
+
+    <View
+        android:id="@+id/linha3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/white_view"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/senha2"/>
 
     <Button
         android:id="@+id/botao"

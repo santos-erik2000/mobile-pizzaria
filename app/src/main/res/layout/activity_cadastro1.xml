@@ -38,6 +38,17 @@
         android:importantForAutofill="no"
         android:inputType="textPersonName|textCapWords" />
 
+    <View
+        android:id="@+id/linha1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/yellow_view"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nome"/>
+
     <EditText
         android:id="@+id/cpf"
         android:layout_width="match_parent"
@@ -53,6 +64,17 @@
         android:importantForAutofill="no"
         android:inputType="number" />
 
+    <View
+        android:id="@+id/linha2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/white_view"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cpf"/>
+
     <EditText
         android:id="@+id/celular"
         android:layout_width="match_parent"
@@ -67,6 +89,17 @@
         app:layout_constraintTop_toBottomOf="@id/cpf"
         android:importantForAutofill="no"
         android:inputType="phone"/>
+
+    <View
+        android:id="@+id/linha3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/white_view"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/celular"/>
 
     <Button
         android:id="@+id/botao"
