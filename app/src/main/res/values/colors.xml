@@ -7,8 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="gray_cad">#9C98A6</color>
+    <color name="text_color_gray">#9C98A6</color>
     <color name="green_button">#00C157</color>
     <color name="yellow_view">#EEAD2D</color>
     <color name="white_view">#CFCFCF</color>
+    <color name="black_light_top">#333</color>
+    <color name="btn_login_entrar">#FE4347</color>
 </resources>
