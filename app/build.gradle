@@ -43,4 +43,12 @@ dependencies {
 
     //Slider
     implementation 'com.heinrichreimersoftware:material-intro:2.0.0'
+
+    //Mask
+    implementation 'com.github.rtoshiro.mflibrary:mflibrary:1.0.0'
+
+    //API
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+
 }

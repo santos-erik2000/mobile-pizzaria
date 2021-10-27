@@ -9,7 +9,7 @@
     android:paddingTop="16dp"
     android:paddingEnd="50dp"
     android:paddingBottom="16dp"
-    tools:context=".LoginActivity">
+    tools:context=".ui.LoginActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -25,16 +25,20 @@
         android:id="@+id/textInputLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:textColorHint="@color/text_color_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/activity_login_campo_cpf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="CPF"
+            android:hint="@string/cpf"
             android:inputType="numberDecimal"
-            android:textColorHint="@color/text_color_gray" />
+            android:textColor="@color/text_color_gray"
+            android:textColorHint="@color/text_color_gray"
+            tools:ignore="TouchTargetSizeCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -42,20 +46,25 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:textColorHint="@color/text_color_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/yellow_view"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/activity_login_campo_senha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="SENHA"
-            android:inputType="textPassword"
+            android:hint="@string/senha"
+            android:inputType="text"
+            android:textColor="@color/text_color_gray"
             android:textColorHint="@color/text_color_gray" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/activity_login_btn_entrar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
@@ -64,6 +73,7 @@
         android:backgroundTint="@color/btn_login_entrar"
         android:text="ENTRAR"
         android:textColor="#fff"
+        app:layout_constraintCircleRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
@@ -77,9 +87,11 @@
         android:backgroundTint="@color/green_button"
         android:onClick="abreFormularioCadastro"
         android:text="Crie sua Conta"
+        android:textColor="@color/white"
+        app:layout_constraintCircleRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/activity_login_btn_entrar" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
