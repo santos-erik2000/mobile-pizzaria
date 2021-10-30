@@ -85,7 +85,7 @@
             android:background="@color/green_button"
             android:backgroundTint="@color/green_button"
             android:onClick="validateCadastroUser"
-            android:text="Button"
+            android:text="@string/finalizar"
             android:textColor="@color/white" />
     </LinearLayout>
 </ScrollView>

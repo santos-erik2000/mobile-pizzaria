@@ -10,4 +10,9 @@
     <string name="senha">Senha</string>
     <string name="senha_2">Repetir senha</string>
     <string name="finalizar">Finalizar Cadastro</string>
+    <string name="cadastro_sucesso">Cadastro Concluído com sucesso, seja bem vindo {Nome}!</string>
+    <string name="aperte_continuar">Aperte aqui para continuar</string>
+    <string name="algo_deu_errrado">Algo deu errado!</string>
+    <string name="Nave_bateu">Nossa nave bateu e estamos concertando!</string>
+    <string name="voltar_inicio">Voltar ao início</string>
 </resources>

@@ -12,10 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PlatPizza">
         <activity
+            android:name=".ui.ErroCadastroActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.CadastroFinalizadoActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.SplashActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
