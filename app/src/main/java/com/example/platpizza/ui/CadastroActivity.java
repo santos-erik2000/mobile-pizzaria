@@ -62,9 +62,9 @@ public class CadastroActivity extends IntroActivity {
         campoRepetirSenha = findViewById(R.id.item_cadastro_campo_repetir_senha);
         btnCadastrar = findViewById(R.id.item_cadastro_btn_finalizarCadastro);
 
-    //     SimpleMaskFormatter smf = new SimpleMaskFormatter("NNN.NNN.NNN-NN");
-    //     MaskTextWatcher mtw = new MaskTextWatcher(campoCPF, smf);
-    //     campoCPF.addTextChangedListener(mtw);
+        SimpleMaskFormatter smf = new SimpleMaskFormatter("NNN.NNN.NNN-NN");
+        MaskTextWatcher mtw = new MaskTextWatcher(campoCPF, smf);
+        campoCPF.addTextChangedListener(mtw);
 
     //    SimpleMaskFormatter smfCell = new SimpleMaskFormatter("(NN)NNNNNN-NNNN");
     //    MaskTextWatcher mtwCell = new MaskTextWatcher(campoCPF, smfCell);
